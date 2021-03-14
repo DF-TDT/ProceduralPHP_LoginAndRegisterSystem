@@ -41,11 +41,11 @@ if (isset($_POST['submit'])) {
                 exit();
             }
         }
-    }   else {
+    }   
+
+
+} else {
                 header("Location: ../index.php?error=accessforbidden");
                 exit();
             }
-
-
-}
 ?>
